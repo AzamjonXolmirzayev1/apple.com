@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 4700px;
+    background-color: white;
+    font-family: sans-serif;
+}
+/* navbar started */
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    opacity: 0.90;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    margin: 0 35px;
+    font-size: 18px;
+    
+}
+.navbar ul li a{
+    color: rgb(184, 179, 179);
+}
+.navbar ul li a:hover{
+    color: white;
+}
+/* navbar ended */
+/* shop started */
+.shop{
+    width: 100%;
+    height: 40px;
+    background: rgb(243, 236, 236);
+    text-align: center;
+}
+.shop p{
+    padding: 13px;
+    opacity: 10px;
+}
+.shop a:hover{
+    text-decoration: underline;
+}
+/* shop ended */
+/* main1 started */
+.main1{
+    width: 100%;
+    height: 600px;
+    background: white;
+    text-align: center;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/iphone_12_updated__jepm2xpxncuy_large.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.main1 h1{
+    font-size: 55px;
+    padding-top: 50px;
+    opacity: 0.9;
+   
+}
+.main1 h2{
+    font-size: 25px;
+    padding: 13px;
+    opacity: 0.85;
+}
+.main1 p{
+    font-size: 20px;
+    padding: 3px;
+    opacity: 0.5;
+}
+.main1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main1 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main1 ul li a{
+    font-size: 20px;
+    color: blue;
+    opacity: 0.85;
+}
+.main1 ul li a:hover{
+    text-decoration: underline;
+}
+.main1 ul li a span:hover{
+    text-decoration: none;
+}
+/* main1 ended */
+/* main2 started */
+.main2{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/iphone_12_pro_us__e5oyysg4k0ya_large.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}
+.main2 h1{
+    /* background-color: white; */
+    font-size: 55px;
+    padding-top: 30px;
+    opacity: 0.9;
+    color: white;
+}
+.main2 h2{
+    font-size: 25px;
+    padding: 15px;
+    opacity: 0.85;
+    color: white;
+}
+.main2 p{
+    font-size: 20px;
+    padding: 3px;
+    opacity: 0.5;
+    color: white;
+}
+.main2 ul{
+    display: flex;
+    justify-content: center;
+}
+.main2 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main2 ul li a{
+    font-size: 20px;
+    color: blue;
+    opacity: 0.85;
+}
+.main2 ul li a:hover{
+    text-decoration: underline;
+}
+.main1 ul li a span:hover{
+    text-decoration: none;
+}
+/* main2 ended */
+/* main3 started */
+.main3{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large\ \(1\).jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}
+.main3 h1{
+    /* background-color: white; */
+    font-size: 55px;
+    padding-top: 50px;
+    opacity: 0.9;
+    color: white;
+}
+.main3 h2{
+    font-size: 25px;
+    padding: 15px;
+    opacity: 0.85;
+    color: white;
+}
+.main3 ul{
+    display: flex;
+    justify-content: center;
+}
+.main3 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main3 ul li a{
+    font-size: 20px;
+    color: blue;
+    opacity: 0.85;
+}
+.main3 ul li a:hover{
+    text-decoration: underline;
+}
+.main3 ul li a span:hover{
+    text-decoration: none;
+}
+/* main3 ended */
+/* main4 started */
+.main4{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main4in1,.main4in2{
+    width: 48%;
+    height: 600px;
+}
+.main4in2{
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}
+.main4in1{
+    background-color: white;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/promo_imac__crg641tip4q6_large.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}
+.main4in1 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 0.9;
+    color: black;
+}
+.main4in1 h2{
+    font-size: 20px;
+    padding: 15px;
+    opacity: 0.85;
+    color: black;
+}
+.main4in1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main4in1 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main4in1 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main4in1 ul li a:hover{
+    text-decoration: underline;
+}
+.main4in1 ul li a span:hover{
+    text-decoration: none;
+}
+.main4in2{
+    background-color: black;
+    position: relative;
+}
+.main4in2 .fa-apple{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 45px;
+    left: 210px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main4in2 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 0.9;
+    color: white;
+}
+.main4in2 p{
+    color: red;
+    opacity: 0.9;
+    font-size: 15px;;
+}
+.main4in2 h2{
+    font-size: 20px;
+    padding: 15px;
+    opacity: 0.85;
+    color: white;
+}
+.main4in2 ul{
+    display: flex;
+    justify-content: center;
+}
+.main4in2 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main4in2 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main4in2 ul li a:hover{
+    text-decoration: underline;
+}
+.main4in2 ul li a span:hover{
+    text-decoration: none;
+}
+/* main4 ended */
+/* main5 started */
+.main5{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main5in1,.main5in2{
+    width: 48%;
+    height: 600px;
+    background-color: white;
+}
+.main5in1{
+    background-color: white;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/tile__cauwwcyyn9hy_small.jpg');
+    background-size: 860px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    position: relative;
+}
+.main5in1 .fa-apple{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 195px;
+}
+.main5in1 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 1.9;
+    color: black;
+}
+.main5in1 h2{
+    font-size: 20px;
+    padding: px;
+    opacity: 0.75;
+    color: black;
+}
+.main5in1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main5in1 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main5in1 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main5in1 ul li a:hover{
+    text-decoration: underline;
+}
+.main5in1 ul li a span:hover{
+    text-decoration: none;
+}
+.main5in2{
+    background-color: white;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/tile__cauwwcyyn9hy_small_2x\ \(3\).jpg');
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 120%;
+    position: relative;
+}
+.main5in2 .fa-apple{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 245px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main5in2 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 0.9;
+    color: black;
+}
+
+.main5in2 h2{
+    font-size: 20px;
+    opacity: 0.85;
+    color: black;
+}
+.main5in2 ul{
+    display: flex;
+    justify-content: center;
+}
+.main5in2 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main5in2 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main5in2 ul li a:hover{
+    text-decoration: underline;
+}
+.main5in2 ul li a span:hover{
+    text-decoration: none;
+}
+/* main5 ended */
+/* main6 started */
+.main6{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main6in1,.main6in2{
+    width: 48%;
+    height: 600px;
+    background-color: white;
+}
+.main6in1{
+    background-color: white;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/tile__cauwwcyyn9hy_large.jpg');
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    position: relative;
+}
+.main6in1 .fa-apple{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: 235px;
+}
+.main6in1 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 1.9;
+    color: black;
+}
+.main6in1 h2{
+    font-size: 20px;
+    padding: px;
+    opacity: 0.75;
+    color: black;
+}
+.main6in1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main5in1 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right{
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main6in1 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main6in1 ul li a:hover{
+    text-decoration: underline;
+}
+.main6in1 ul li a span:hover{
+    text-decoration: none;
+}
+.main6in2{
+    background-color: white;
+    background-image: url('/lvl2no_1/4-dars/apple.imgs/promo_invasion__ghsczle85ai6_small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 120%;
+    position: relative;
+}
+.main6in2 .fa-apple{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 398px;
+    left: 260px;
+}
+.fa-instagram{
+    margin-right: 25px;
+    color: white;
+}
+.main6in2 h1{
+    /* background-color: white; */
+    font-size: 45px;
+    padding-top: 50px;
+    opacity: 0.9;
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+.main6in2 h2{
+    font-size: 20px;
+    opacity: 0.85;
+    color: white;
+    position: absolute;
+    top: 510px;
+    left: 200px;
+}
+.main6in2 ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.main6in2 ul li{
+    padding: 10px 2px;
+}
+.fa-chevron-right,.fa-long-arrow-up{
+    color: blue;
+    font-size: 15px;
+    margin-right: 35px;
+}
+.main6in2 ul li a{
+    font-size: 18px;
+    color: blue;
+    opacity: 0.85;
+}
+.main6in2 ul li a:hover{
+    text-decoration: underline;
+}
+.main6in2 ul li a span:hover{
+    text-decoration: none;
+}
+/* main6 ended */
+/* main7 started */
+.main7{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(236, 228, 228);
+    margin-top: 20px;
+}
+.main7 p{
+    padding: 5px  180px;
+    font-size: 13px;
+    opacity: 0.6;
+}
+.main7 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main7in1{
+    width: 75%;
+    height: 500px;
+    background-color: rgb(236, 228, 228);
+    margin-top: 15px;
+    margin-left: 180px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.main7in1 h1{
+    font-size: 13px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.main7in1 p{
+    position: absolute;
+    top: 470px;
+    left: -180px;
+}
+.main7in1 ul{
+    /* display: flex; */
+    /* position: absolute; */
+}
+.main7in1 ul li{
+    font-size: 13px;
+    padding: 6px 0px;
+}
+.main7in1 ul li a{
+    color: black;
+    opacity: 0.6;
+}
+.main7in1 ul li a:hover{
+    text-decoration: underline;
+}
+.main7footer{
+    width:75%;
+    height: 60px;
+    background-color: ;
+    margin-left: 180px;
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.main7footer p{
+    position: absolute;
+    top: 5px;
+    left: -180px;
+    font-size: 13px;
+}
+.main7footer ul{
+    display: flex;
+}
+.main7footer .a1{
+    position: absolute;
+    top: 1px;
+    left: 300px;
+}
+.main7footer ul li{
+    font-size: 13px;
+    border-right: 1px solid grey;
+    padding: 10px 10px;
+    
+}
+.main7footer ul li a{
+    color: black;
+    opacity: 0.6;
+}
+.main7footer ul li:hover{
+    text-decoration: underline;
+}
+#sa{
+    border-right: none;
+}
+#saa{
+    border-right: none;
+}
+.main7footer .a2{
+    position: absolute;
+    top: 1px;
+    left: 910px;
+}
+.main7footer .a2:hover{
+    text-decoration: underline;
+}
